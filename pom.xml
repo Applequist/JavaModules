@@ -20,4 +20,5 @@
         <module>example.impl</module>
         <module>example.app</module>
     </modules>
+
 </project>
