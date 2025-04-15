@@ -1,6 +1,7 @@
 module example.app {
   requires example.api;
-  requires example.impl;
 
   exports org.example.app;
+
+  uses org.example.api.GreetService;
 }

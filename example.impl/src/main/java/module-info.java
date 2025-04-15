@@ -3,5 +3,5 @@ module example.impl {
 
   exports org.example.impl;
 
-  opens org.example.impl;
+  provides org.example.api.GreetService with org.example.impl.RudeGreeter, org.example.impl.PoliteGreeter;
 }
